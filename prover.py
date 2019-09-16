@@ -6,14 +6,14 @@ def search(username):
     r = requests.get(url)
     if r.status_code == 200:
         result = {
-            'Success!'
+            'result': 'Success!',
             'exists': True,
             'link': url
         }
 
     elif r.status_code == 404:
         result = {
-            'Not Found! '
+            'result': 'Not Found!',
             'exists': False,
 
         }
