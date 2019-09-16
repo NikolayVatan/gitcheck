@@ -17,8 +17,7 @@
 2. Установить из Git
 
 
-https://github.com/NikolayVatan/steam.git
-
+https://github.com/NikolayVatan/gitcheck.git
 
 	$ pythn app.py install
 
