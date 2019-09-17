@@ -11,6 +11,12 @@
 1. Установить из Git
 
  ```$git clone https://github.com/NikolayVatan/gitcheck.git```
+ 
+ После того как клонировали , необходимо перейти в папку проекта и выполнить следующик оманды в терминале:
+ 
+    $pip install -r requirements.txt
+    
+    $python app.py install
 
 Использование:
 
