@@ -21,11 +21,6 @@ https://github.com/NikolayVatan/gitcheck.git
 
 	$ pythn app.py install
 
-Перед использованием подключите Mongodb.
-Введите команду в терминале:
-
-    $sudo service mongod start
-
 
 Использование:
 
