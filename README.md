@@ -8,9 +8,24 @@
 Способы установки:
 
 
-1. Установить из Git
+1. Установите через pip
 
-    ```$ git clone https://github.com/NikolayVatan/gitcheck.git```
+
+	```$ pip install app```
+
+
+2. Установить из Git
+
+
+https://github.com/NikolayVatan/gitcheck.git
+
+	$ pythn app.py install
+
+Перед использованием подключите Mongodb.
+Введите команду в терминале:
+
+    $sudo service mongod start
+
 
 Использование:
 
