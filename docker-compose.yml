@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  app:
+    container_name: gitcheck
+    build: .
+    ports:
+      - 3327:5000
+    restart: always
