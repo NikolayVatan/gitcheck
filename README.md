@@ -14,9 +14,7 @@
  
  После того как клонировали , необходимо перейти в папку проекта и выполнить следующик оманды в терминале:
  
-    $pip install Flask
-    
-    $pip install requests
+    $pip install -r requirements.txt
     
     $python app.py install
 
