@@ -17,6 +17,8 @@ def search(username):
             'exists': False,
 
         }
+    else:
+        return 'error'
 
     return result
 
