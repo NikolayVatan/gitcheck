@@ -16,7 +16,7 @@
  
     $pip install -r requirements.txt
     
-    $python app.py install
+    $python app.py
 
 Использование:
 
