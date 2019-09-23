@@ -35,11 +35,17 @@
  Создаем файл .dockerignore , где прописываем ненужные файлы:
  
  .venv
+ 
 .git
+
 .idea
+
 __pycache__
+
 *.pyc
+
 *.log
+
  ```$docker-compose up -d --build```
  
  ```$docker ps -a```
