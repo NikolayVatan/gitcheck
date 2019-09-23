@@ -18,7 +18,7 @@ def search(username):
 
         }
     else:
-        return 'error'
+        return 'error, please try again'
 
     return result
 
