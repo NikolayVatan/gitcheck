@@ -43,8 +43,6 @@
 
 .idea
 
-__pycache__
-
 *.pyc
 
 *.log
