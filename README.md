@@ -20,6 +20,7 @@
     
 Настройка Docker.
 Перейдите в командную строку редактора и введите следующие команды:
+
  ```$docker run -d--name_gitchek -p 3327:5000 -t gitcheck```
  
  ```$docker-compose up -d```
