@@ -17,6 +17,33 @@
     $pip install -r requirements.txt
     
     $python app.py
+    
+Настройка Docker.
+Перейдите в командную строку редактора и введите следующие команды:
+ ```$docker run -d--name_gitchek -p 3327:5000 -t gitcheck```
+ 
+ ```$docker-compose up -d```
+ 
+ ```$docker ps -a```
+ 
+ ```$docker exec -it gitcheck bash```
+ 
+ ```$ls``` \ ```$exit```
+ 
+ Дальше будет показано содержимое контейнера , установленные пакеты , некоторые из них необходимо удалить.
+ Создаем файл .dockerignore , где прописываем ненужные файлы:
+ .venv
+.git
+.idea
+__pycache__
+*.pyc
+*.log
+ ```$docker-compose up -d --build```
+ 
+ ```$docker ps -a```
+ 
+ Контейнер создан.
+ 
 
 Использование:
 
