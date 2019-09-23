@@ -13,7 +13,7 @@
  ```$git clone https://github.com/NikolayVatan/gitcheck.git```
      
 Настройка Docker.
-Перейдите в командную строку и введите следующие команды:
+Перейдите в командную строку и введите следующие команду:
  
  ```$docker-compose up -d```
  
