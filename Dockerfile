@@ -4,7 +4,7 @@ FROM python:3.6
 WORKDIR /app
 #Копирование содержимого папки в папку app
 COPY . /app
-#Установка нужных можудей в окружение
+#Установка нужных модулей в окружение
 RUN pip install -r requirements.txt
 #Точка входа в программу (нач команда)
 ENTRYPOINT ["python", "app.py"]
