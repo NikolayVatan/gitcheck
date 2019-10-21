@@ -24,4 +24,4 @@ def search(username):
 
 
 if __name__ == '__main__':
-    print(search('NikolayVatan'))
+
